@@ -23,7 +23,7 @@ public class Arquivo implements ILerArquivo {
 				for(String fruta : lista) {
 					if(lista[2].contains("Fruits")) {
 						cont = true;
-						System.out.print(fruta+"\t\t");
+						System.out.print(fruta+"\t");
 					}
 				}
 				if(cont) {

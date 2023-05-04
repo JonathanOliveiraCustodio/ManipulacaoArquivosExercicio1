@@ -7,13 +7,14 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		String arquivo = "generic_food.csv";
-		String path = "C:\\Windows\\Temp"; 
+		String path = "C:\\Windows\\Temp";
 		
-		ILerArquivo ler = new Arquivo();
+		String arquivo = "generic_food.csv";
+		 
+		ILerArquivo Leitura = new Arquivo();
 		
 		try {
-			ler.lerArquivo(path, arquivo);
+			Leitura.lerArquivo(path, arquivo);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
